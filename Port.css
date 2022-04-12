@@ -1,0 +1,19 @@
+body {
+    background-color: #192840;
+}
+
+.style-title {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    opacity: 30%;
+}
+
+.grid-container {
+    display: grid;
+    height: 20%;
+    grid-template-columns:  500px 0px 0px 0px  ;
+    padding-top: 200px;
+    justify-content: center;
+   
+    text-align:center;
+}
