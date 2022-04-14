@@ -5,8 +5,10 @@ body {
 .style-title {
     font-family: 'Montserrat', sans-serif;
     color: whitesmoke;
+    opacity: 40%;
     display: none;
     font-size: 43px;
+    font-weight: 100;
 }
 
 .grid-container {
@@ -15,6 +17,37 @@ body {
     grid-template-columns:  500px 0px 0px 0px  ;
     padding-top: 200px;
     justify-content: center;
-   
+    
     text-align:center;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    float: left;
+
+}
+
+li {
+    display: inline;
+
+}
+
+.grid-container1 {
+    display: grid;
+    height: 1%;
+    
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.style-nav {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    opacity: 60%;
+    font-weight: 800;
+    font-size: 16px;
+
 }
