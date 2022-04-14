@@ -5,7 +5,8 @@ body {
 .style-title {
     font-family: 'Montserrat', sans-serif;
     color: whitesmoke;
-    opacity: 30%;
+    display: none;
+    font-size: 43px;
 }
 
 .grid-container {
