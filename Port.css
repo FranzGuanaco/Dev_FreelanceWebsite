@@ -39,7 +39,6 @@ li {
 .grid-container1 {
     display: grid;
     height: 1%;
-    
     padding-top: 10px;
     
 }
@@ -59,11 +58,14 @@ li {
 #slide {
     padding: 15px;
     display: none;
-    margin-left: 18%;
-    
+    margin-left: 17%;
+    text-align: center;
     position: fixed;
    
     
 }
 
 
+.colorchanged {
+    background-color: black;
+}
