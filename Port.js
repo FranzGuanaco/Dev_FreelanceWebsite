@@ -9,5 +9,5 @@ $(document).ready(function(){
     $("#test").height($("grid-container1"))
     $(document).ready(function() {
         $("#rien").ready(function(){
-        $("#slide").delay(3000).slideDown("9000");})
+        $("#slide").delay(2000).slideToggle("9000");})
     });
