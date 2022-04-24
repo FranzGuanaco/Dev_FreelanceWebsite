@@ -68,4 +68,11 @@ li {
 
 .colorchanged {
     background-color: black;
+    !transition: background-color 1s;
+    
+        -webkit-transition: background-color 1s;
+       -moz-transition: background-color 2s;
+        -ms-transition: background-color 2s;
+         -o-transition: background-color 2s;
+            transition: background-color 2s;
 }
