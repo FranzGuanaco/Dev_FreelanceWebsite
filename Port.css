@@ -77,6 +77,18 @@ li {
             transition: background-color 2s;
 }
 
+.colorchanged2  {
+    
+    background-color: #192840;
+    transition: background-color 1s;
+    
+        -webkit-transition: background-color 1s;
+       -moz-transition: background-color 2s;
+        -ms-transition: background-color 2s;
+         -o-transition: background-color 2s;
+            transition: background-color 2s;
+}
+
 
 .opacity-title {
     font-family: 'Montserrat', sans-serif;

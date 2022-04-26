@@ -16,8 +16,8 @@ $(document).ready(function(){
         if (document.documentElement.scrollTop > 300){
             document.getElementById("changecolor").className="colorchanged";
         }
-        else{
-            document.getElementById("changecolor").className="";
+        if (document.documentElement.scrollTop < 300){
+            document.getElementById("changecolor").className="colorchanged2";
         }
     
         if (document.documentElement.scrollTop > 50){
