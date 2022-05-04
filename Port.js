@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $("#fade").fadeIn(4000);
+$(document).ready(function(){  /* titre */
+    $("#fade").fadeIn(3000);
     });
 
 
@@ -9,12 +9,22 @@ $(document).ready(function(){
         $("#slide").delay(2000).slideToggle("9000");})
     });
 
+
+           
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if($(window).scrollTop() <= 40){
+                $("#bouge").slideToggle("9000"); }}); });
+
+        
+
     // effet fade-in pour la couleur en background
 
     window.onscroll = function() {myFunction()};
     function myFunction() {
         if (document.documentElement.scrollTop > 300){
             document.getElementById("changecolor").className="colorchanged";
+            document.getElementsById("circleBase").className = "move";
         }
         if (document.documentElement.scrollTop < 300){
             document.getElementById("changecolor").className="colorchanged2";

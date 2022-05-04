@@ -20,6 +20,18 @@ body {
     text-align:center;
 }
 
+#circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 7px;
+    height: 7px;
+    background: whitesmoke;
+    margin-left: 150px;
+    position: relative;
+}
+    
+   
+
 
 
 
@@ -71,10 +83,10 @@ li {
     transition: background-color 1s;
     
         -webkit-transition: background-color 1s;
-       -moz-transition: background-color 2s;
-        -ms-transition: background-color 2s;
-         -o-transition: background-color 2s;
-            transition: background-color 2s;
+       -moz-transition: background-color 1s;
+        -ms-transition: background-color 1s;
+         -o-transition: background-color 1s;
+            transition: background-color 1s;
 }
 
 .colorchanged2  {
@@ -83,10 +95,10 @@ li {
     transition: background-color 1s;
     
         -webkit-transition: background-color 1s;
-       -moz-transition: background-color 2s;
-        -ms-transition: background-color 2s;
-         -o-transition: background-color 2s;
-            transition: background-color 2s;
+       -moz-transition: background-color 0,6s;
+        -ms-transition: background-color 0,6s;
+         -o-transition: background-color 0,6s;
+            transition: background-color 0,6s;
 }
 
 
@@ -106,3 +118,22 @@ li {
          transition: opacity 1s;
 
 }
+
+.move {
+    animation-name: move;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    visibility: visible;
+    animation-fill-mode: forwards;
+  
+
+  }
+  @keyframes move {
+    0% {
+      transform: translate(0,0);
+    }
+    100% {
+      transform: translate(820px,0);
+    }
+  }
