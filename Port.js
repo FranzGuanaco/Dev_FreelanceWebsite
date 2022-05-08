@@ -22,21 +22,22 @@ $(document).ready(function(){  /* titre */
 
     window.onscroll = function() {myFunction()};
     function myFunction() {
-        if (document.documentElement.scrollTop > 300 ){
+        if ((document.documentElement.scrollTop > 300 ) && (document.documentElement.scrollTop < 310 )){
             document.getElementById("changecolor").className="colorchanged"; /* changement de background color */
             document.getElementById("circleBase").className = "move"; /* avancement de la bille */
         }
 
-        if (document.documentElement.scrollTop > 600){
-            document.getElementById("circleBase").className = "move_more"; /* la bille avance plus */
-        }
+        if ((document.documentElement.scrollTop > 900 ) && (document.documentElement.scrollTop < 2000 )) {
+            document.getElementById("circleBase").className = "move_more"; /* avancement de la bille */
+         }
+         
+         else if ((document.documentElement.scrollTop < 2000 ) && (document.documentElement.scrollTop > 900 )){
+            document.getElementById("circleBase").className = "back_more"; 
+         }
+
         if (document.documentElement.scrollTop < 300){
             document.getElementById("changecolor").className="colorchanged2"; /* changement de background couleur et remontant */
-            
-        }
-
-        if ((document.documentElement.scrollHeight < 300) && (document.documentElement.scrollHeight > 600)){
-            document.getElementById("circleBase").className = "back"; /* la bille recul */
+            document.getElementById("circleBase").className = "back";
         }
     
         if (document.documentElement.scrollTop > 40){

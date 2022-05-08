@@ -150,7 +150,7 @@ li {
   }
   @keyframes move_more {
     0% {
-      transform: translate(420px,0);
+      transform: translate(421px,0);
     }
     100% {
       transform: translate(820px,0);
@@ -161,14 +161,36 @@ li {
   .back {
     animation-name: back;
     animation-name: back;
-    animation-duration: 2s;
-    animation-duration: 2s;
+    animation-duration: 1s;
+    animation-duration: 1s;
     visibility: visible;
     animation-fill-mode: forwards;
+    
   
 
   }
   @keyframes back {
+    0% {
+      transform: translate(420px,0);
+    }
+    100% {
+      transform: translate(0,0);
+    }
+  }
+
+
+  .back_more {
+    animation-name: back_more;
+    animation-name: back_more;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    visibility: visible;
+    animation-fill-mode: forwards;
+    
+  
+
+  }
+  @keyframes back_more {
     0% {
       transform: translate(820px,0);
     }
