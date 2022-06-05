@@ -1,0 +1,200 @@
+body {
+    background-color: #192840;
+}
+
+.style-title {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    opacity: 40%;
+    display: none;
+    font-size: 43px;
+    font-weight: 100;
+}
+
+.grid-container2 {
+    display: grid;
+    height: 20%;
+    grid-template-columns:  500px 0px 0px 0px  ;
+    padding-top: 300px;
+    justify-content: center;
+    text-align:center;
+}
+
+#circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 7px;
+    height: 7px;
+    background: whitesmoke;
+    margin-left: 150px;
+    position: relative;
+}
+    
+   
+
+
+
+
+ul {
+    list-style-type: none;
+    
+
+}
+
+li {
+    display: inline;
+    margin: 80px;
+    
+
+}
+
+.grid-container1 {
+    display: grid;
+    height: 1%;
+    padding-top: 10px;
+    
+}
+
+
+
+.style-nav {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    opacity: 60%;
+    font-weight: 800;
+    font-size: 16px;
+    
+
+}
+
+#slide {
+    padding: 15px;
+    display: none;
+    margin-left: 17%;
+    text-align: center;
+    position: fixed; 
+   
+    
+} 
+
+
+.colorchanged {
+    background-color: black;
+    transition: background-color 1s;
+    
+        -webkit-transition: background-color 1s;
+       -moz-transition: background-color 1s;
+        -ms-transition: background-color 1s;
+         -o-transition: background-color 1s;
+            transition: background-color 1s;
+}
+
+.colorchanged2  {
+    
+    background-color: #192840;
+    transition: background-color 1s;
+    
+        -webkit-transition: background-color 1s;
+       -moz-transition: background-color 0,6s;
+        -ms-transition: background-color 0,6s;
+         -o-transition: background-color 0,6s;
+            transition: background-color 0,6s;
+}
+
+
+.opacity-title {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    opacity: 0%;
+    
+
+    transition: opacity 1s;
+
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+     -ms-transition: opacity 1s;
+      -o-transition: opacity 1s;
+         transition: opacity 1s;
+
+}
+
+.move {
+    animation-name: move;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    visibility: visible;
+    animation-fill-mode: forwards;
+  
+
+  }
+  @keyframes move {
+    0% {
+      transform: translate(0,0);
+    }
+    100% {
+      transform: translate(420px,0);
+    }
+  }
+
+  .move_more {
+    animation-name: move_more;
+    animation-name: move_more;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    visibility: visible;
+    animation-fill-mode: forwards;
+  
+
+  }
+  @keyframes move_more {
+    0% {
+      transform: translate(421px,0);
+    }
+    100% {
+      transform: translate(820px,0);
+    }
+  }
+
+
+  .back {
+    animation-name: back;
+    animation-name: back;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    visibility: visible;
+    animation-fill-mode: forwards;
+    
+  
+
+  }
+  @keyframes back {
+    0% {
+      transform: translate(420px,0);
+    }
+    100% {
+      transform: translate(0,0);
+    }
+  }
+
+
+  .back_more {
+    animation-name: back_more;
+    animation-name: back_more;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    visibility: visible;
+    animation-fill-mode: forwards;
+    
+  
+
+  }
+  @keyframes back_more {
+    0% {
+      transform: translate(820px,0);
+    }
+    100% {
+      transform: translate(420px,0);
+    }
+  }
