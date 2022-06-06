@@ -18,7 +18,7 @@ $(document).ready(function(){  /* titre */
 
  window.onscroll = function() {myFunction()};
     function myFunction() {
-            if (document.documentElement.scrollTop > 300 ){
+            if (document.documentElement.scrollTop > 200 ){
                         document.getElementById("changecolor").className="colorchanged"; /* changement de background color */
                         document.getElementById("circleBase").className = "move"; /* avancement de la bille */
                     }
