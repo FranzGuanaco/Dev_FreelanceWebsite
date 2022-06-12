@@ -134,11 +134,11 @@ li {
       transform: translate(0,0);
     }
     100% {
-      transform: translate(420px,0);
+      transform: translate(0,400px);
     }
   }
 
-  .move_more {
+  .mov_more {
     animation-name: move_more;
     animation-name: move_more;
     animation-duration: 1s;
@@ -158,7 +158,7 @@ li {
   }
 
 
-  .back {
+  .bak {
     animation-name: back;
     animation-name: back;
     animation-duration: 1s;
@@ -179,7 +179,7 @@ li {
   }
 
 
-  .back_more {
+  .back_mre {
     animation-name: back_more;
     animation-name: back_more;
     animation-duration: 1s;
