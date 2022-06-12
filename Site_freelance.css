@@ -5,6 +5,28 @@ body {
 
 
 
+.offices-section .photos {
+    margin-top: 100px;
+  height: 3000vh;
+  border: solid red;
+  }
+  
+  
+  .offices-section .photos .one {
+    position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  }
+  
+  
+  .offices-section .content {
+    height: 300vh;
+    
+  }
+
+
+
+
 
 
 ul {
