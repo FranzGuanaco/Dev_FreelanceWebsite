@@ -6,7 +6,8 @@ body {
 
 
 .offices-section .photos {
-    margin-top: 100px;
+    
+margin-top: 200px;
   height: 3000vh;
   border: solid red;
   }
@@ -15,7 +16,7 @@ body {
   .offices-section .photos .one {
     position: -webkit-sticky;
   position: sticky;
-  top: 10px;
+  top: 150px;
   }
   
   
